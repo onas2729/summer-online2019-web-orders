@@ -15,6 +15,7 @@ public class Hooks {
     //will close browser after every test
     @After
     public void teardown(){
+        System.out.println("hello");
 
     }
 }
