@@ -5,6 +5,11 @@ import io.cucumber.java.After;
 
 public class Hooks {
 
+    @Before
+    public void setup(){
+        System.out.println("login page incomoing");
+    }
+    
     //after hook
     //will close browser after every test
     @After
